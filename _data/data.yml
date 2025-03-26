@@ -43,7 +43,12 @@ education:
   list:
     - info: GCSE
     - info: Currently studying A Levels at the Crossley Heath Grammar School
-    - info: A Levels: Level 3 Maths (AS Level), Product Design, History, Economics
+    - info: 
+        A Levels: 
+          - Level 3 Maths (AS Level)
+          - Product Design
+          - History
+          - Economics
 
 experiences:
   title: Experiences
