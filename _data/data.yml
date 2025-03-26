@@ -20,7 +20,7 @@ sidebar:
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
-    title: Languages
+  title: Languages
     - idiom: English
       level: Native
 
@@ -28,7 +28,7 @@ sidebar:
       level: Intermediate
 
   interests:
-    title: Interests
+   title: Interests
     info:
     - item: Golf
     - item: Music
