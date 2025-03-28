@@ -8,30 +8,15 @@ sidebar:
   education: True  # set to False if you want education in the main section instead
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Morgan Bell
+  tagline: Full time student at The Crossley Heath Grammar School
   avatar: profile.png  # place a 100x100 picture inside /assets/images/ and provide the file name
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun  # Enter your timezone, e.g., America/Havana
-  citizenship: 
-  website: https://example.com/  # Include the full URL, including "http://" or "https://"
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram:  # add your nickname without '@'
-  gitlab: 
-  bitbucket: 
-  bluesky: '@jekyllrb.bsky.social'  # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow:  # Number/Username, e.g. 123456/alandoe
-  codewars: 
-  goodreads:  # Number-Username, e.g. 123456-alandoe
-  mastodon:  # Please include your full Mastodon link
-  hackerrank:  # Provide your HackerRank username
-  leetcode:  # Provide your LeetCode username
+  email: morganbell08@outlook.com
+  phone: +44 7477864523
+  timezone: GMT/UK  # Enter your timezone, e.g., America/Havana
+  linkedin: Morgan Bell 
   pdf:  # Add a PDF link here if you want to include a downloadable version
 
   languages:
@@ -39,80 +24,62 @@ sidebar:
     info:
       - idiom: English
         level: Native
-      - idiom: French
-        level: Professional
-      - idiom: Spanish
-        level: Professional
+      - idiom: German
+        level: Intermediate
 
   interests:
     title: Interests
     info:
-      - item: Climbing
+      - item: Music
         link: 
-      - item: Snowboarding
+      - item: Skiing
         link: 
-      - item: Cooking
+      - item: Table Tennis
         link: 
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here. Lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis
-    dis parturient montes, nascetur ridiculus mus.
+  I am a full time Student at The Crossley Heath Grammar School. I have workrd part time jobs such as a waiter, stockroom assistant and cashier. I have almost a year of experience in retail, and have other skills such as speaking Intermediate level German. I have good time management skills and effective teamwork and communication.
 
 education:
   title: Education
   info:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: 10 GCSEs at grades 9-5
+      university: The Crossley Heath Grammar School
+      time: 2019 - 2024
       details: |
         Describe your study here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         - Bullet point
         - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-        - Bullet point
-        - Bullet point
-
-experiences:
-  title: Experiences
-  info:
-    - role: Lead Developer
-      company: Startup Hubs, San Francisco
-      time: 2015 - Present
-      details: |
-        Describe your role here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-        - Bullet point
-        - Bullet point
-    - role: Senior Software Engineer
-      company: Google, London
-      time: 2014 - 2015
-      details: |
-        Describe your role here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-        - Bullet point
-        - Bullet point
-    - role: UI Developer
-      company: Amazon, London
-      time: 2012 - 2014
-      details: |
-        Describe your role here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-        - Bullet point
-        - Bullet point
+    - degree: Currently Studying A Levels
+      university: The Crossley Heath Grammar School
+      time: 2024 - Present
+      details: | A Levels I am studying:
+      - Level 3 Maths (AS level)
+      - Economics 
+      - Product Design
+      - History
+       
 
 certifications:
-  title: Certifications
+  title: Certifications/Experiences
   list:
+    - name: Lloyds Bank Work Experience
+      time: March 10th - March 14th, 2025
+      company: Lloyds Bank
+      details: |
+        From the 10th to the 14th of March this year, I participated in Lloyds Bank's Work Experience at Wellington Place in Leeds. 
+        Whilst I was there, I developed the 8 key skills in their Ethos and was taught about several key roles at the bank, 
+        such as Financial Advisory, Investment, Mortgages, Customer Service, and Cyber Security. I shadowed each role for a day and 
+        learned about how the bank runs and the different careers available. This experience helped me improve my transferable skills 
+        and workplace readiness.
+
     - name: Age UK Youth Worker
       start: 2024
       end: N/A
       organization: Age UK
-      credentialid: 111-222
+      credentialid:
       credentialurl: www.AgeUK.com
       credentialname: AgeUK
       details: |
@@ -126,98 +93,33 @@ certifications:
       start: 2022
       end: 2024
       organization: The Crossley Heath Grammar School
-      credentialid: 111-222
-      credentialurl: www.github.com
-      credentialname: Github
+      credentialid: 
+      credentialurl: 
+      credentialname: CodingForKids
       details: |
-        Older certification. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        In the years 2022-2024, I helped kids in Years 7-8 learn Visual Basic during my lunchtimes, which once again reinforced skills 
+        such as effective communication, patience, good timekeeping skills, and the ability to break down tasks into simple steps.
 
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  assignments:
-    - title: Velocity
-      link: "#"
-      tagline: "A responsive website template for startups to promote their products."
-    - title: DevStudio
-      link: "#"
-      tagline: "A website template to help web developers market their services."
-    - title: Tempo
-      link: "#"
-      tagline: "A startup-focused website template to attract users and investors."
-    - title: Atom
-      link: "#"
-      tagline: "A comprehensive website solution for mobile app developers."
-    - title: Delta
-      link: "#"
-      tagline: "A responsive Bootstrap theme for app developers."
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open-source software contributions here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  contributions:
-    - title: Tempo
-      link: "#"
-      tagline: "A website template designed for startups and investors."
-    - title: Atom
-      link: "#"
-      tagline: "A marketing solution for mobile app developers."
-    - title: Delta
-      link: "#"
-      tagline: "A responsive theme for app developers."
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  papers:
-    - title: The Art of Computer Programming
-      link: "#"
-      authors: Donald E. Knuth
-      conference: Addison-Wesley, 1968
-    - title: "Genetic Programming III: Darwinian Invention & Problem Solving"
-      link: "#"
-      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-    - title: A Syntax-Directed Compiler for Algol 60
-      link: "#"
-      authors: Edgar T. Irons
-      conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-    - person: Yareli Perez
-      email: perezyareli@example.com
-      phone: 012 345 6789
-      role: General Director at example.com
-      recommendation: |
-        Alan Doe is a super employee!
-    - person: Lara Henderson
-      email: larah@example.com
-      phone: 012 345 6789
-      role: General Director at example.com
-      recommendation: |
-        I would like to work with Alan Doe again!
-        He is a great employee!
-
+ - name: Duke Of Edinburgh Award
+      time: 2022-2023
+      details: |
+        During my Silver Duke of Edinburgh expedition in the Yorkshire Dales, I navigated challenging terrain, carried essential gear, 
+        and worked closely with my team to stay on course. I developed map-reading and problem-solving skills, adapted to changing conditions, 
+        and learned to stay focused under pressure. The experience also improved my teamwork and communication, as we had to support 
+        each other and manage tasks effectively. It was a demanding but rewarding challenge that strengthened my resilience, 
+        planning, and leadership abilities.
+      
 skills:
   title: Skills & Proficiency
   toolset:
-    - name: Python & Django
+    - name: Cash Handling
       level: 98%
-    - name: Javascript & jQuery
+    - name: Effective Communication
       level: 98%
-    - name: Angular
+    - name: Time Management
       level: 98%
-    - name: HTML5 & CSS
+    - name: Customer Service
       level: 95%
-    - name: Ruby on Rails
-      level: 85%
-    - name: Sketch & Photoshop
-      level: 60%
-
+   
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
