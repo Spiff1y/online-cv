@@ -3,276 +3,221 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right  # position of the sidebar: left or right
+  about: True  # set to False or comment out to remove "how to use?" in the sidebar
+  education: True  # set to False if you want education in the main section instead
 
   # Profile information
   name: Alan Doe
   tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: profile.png  # place a 100x100 picture inside /assets/images/ and provide the file name
 
   # Sidebar links
   email: example@email.com
   phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+  timezone: America/Cancun  # Enter your timezone, e.g., America/Havana
+  citizenship: 
+  website: https://example.com/  # Include the full URL, including "http://" or "https://"
   linkedin: alandoe
   xing: alandoe
   github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  telegram:  # add your nickname without '@'
+  gitlab: 
+  bitbucket: 
+  bluesky: '@jekyllrb.bsky.social'  # Specify your full Bluesky handle
   twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  stack-overflow:  # Number/Username, e.g. 123456/alandoe
+  codewars: 
+  goodreads:  # Number-Username, e.g. 123456-alandoe
+  mastodon:  # Please include your full Mastodon link
+  hackerrank:  # Provide your HackerRank username
+  leetcode:  # Provide your LeetCode username
+  pdf:  # Add a PDF link here if you want to include a downloadable version
 
   languages:
     title: Languages
     info:
-    - idiom: English
-      level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+      - idiom: English
+        level: Native
+      - idiom: French
+        level: Professional
+      - idiom: Spanish
+        level: Professional
 
   interests:
     title: Interests
     info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
+      - item: Climbing
+        link: 
+      - item: Snowboarding
+        link: 
+      - item: Cooking
+        link: 
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    Summarise your career here. Lorem ipsum dolor sit amet, consectetuer
     adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis
+    dis parturient montes, nascetur ridiculus mus.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
+    - degree: MSc in Computer Science
+      university: University of London
+      time: 2011 - 2012
+      details: |
+        Describe your study here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         - Bullet point
         - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      time: 2007 - 2011
+      details: |
+        Describe your study here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         - Bullet point
         - Bullet point
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
+    - role: Lead Developer
+      company: Startup Hubs, San Francisco
+      time: 2015 - Present
+      details: |
+        Describe your role here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         - Bullet point
         - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
+    - role: Senior Software Engineer
+      company: Google, London
+      time: 2014 - 2015
+      details: |
+        Describe your role here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         - Bullet point
         - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
+    - role: UI Developer
+      company: Amazon, London
+      time: 2012 - 2014
+      details: |
+        Describe your role here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         - Bullet point
         - Bullet point
 
 certifications:
   title: Certifications
   list:
-  - name: Age UK Youth Worker
-    start: 2024
-    end: N/A
-    organization: Age UK
-    credentialid: 111-222
-    credentialurl: www.AgeUK.com
-    credentialname: AgeUK
-    details: |
-        I have been working at the Age UK charity for almost a year. Once a week, I help people use technology and aid them when necessary. 
-        For example, if they need to set up a new iPhone, I show them how to set it up and write key steps down with diagrams if necessary. 
-        This role also includes walking them through how to make email accounts and app logins, or how to use Google Maps or the Internet. 
-        This role has helped me develop key skills such as clear communication, efficient note-taking, and analytical skills.
+    - name: Age UK Youth Worker
+      start: 2024
+      end: N/A
+      organization: Age UK
+      credentialid: 111-222
+      credentialurl: www.AgeUK.com
+      credentialname: AgeUK
+      details: |
+        I have been working at the Age UK charity for almost a year. Once a week, I help people use technology and aid them when necessary.
+        - Helping set up new iPhones with written instructions if needed.
+        - Assisting with email account and app login creation.
+        - Teaching users how to navigate Google Maps and browse the Internet.
+        - Developed clear communication, efficient note-taking, and analytical skills.
 
-  - name: Coding for Kids
-    start: 2022
-    end:2024
-    organization: The Crossley Heath Grammar School
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    - name: Coding for Kids
+      start: 2022
+      end: 2024
+      organization: The Crossley Heath Grammar School
+      credentialid: 111-222
+      credentialurl: www.github.com
+      credentialname: Github
+      details: |
+        Older certification. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: Velocity
+      link: "#"
+      tagline: "A responsive website template for startups to promote their products."
+    - title: DevStudio
+      link: "#"
+      tagline: "A website template to help web developers market their services."
+    - title: Tempo
+      link: "#"
+      tagline: "A startup-focused website template to attract users and investors."
+    - title: Atom
+      link: "#"
+      tagline: "A comprehensive website solution for mobile app developers."
+    - title: Delta
+      link: "#"
+      tagline: "A responsive Bootstrap theme for app developers."
 
 oss:
   title: OSS Contributions
   intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    You can list your open-source software contributions here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: Tempo
+      link: "#"
+      tagline: "A website template designed for startups and investors."
+    - title: Atom
+      link: "#"
+      tagline: "A marketing solution for mobile app developers."
+    - title: Delta
+      link: "#"
+      tagline: "A responsive theme for app developers."
 
 publications:
   title: Publications
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    You can list your publications here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+    - title: The Art of Computer Programming
+      link: "#"
+      authors: Donald E. Knuth
+      conference: Addison-Wesley, 1968
+    - title: "Genetic Programming III: Darwinian Invention & Problem Solving"
+      link: "#"
+      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    - title: A Syntax-Directed Compiler for Algol 60
+      link: "#"
+      authors: Edgar T. Irons
+      conference: "Comm. ACM 4 (1961), 51–55"
 
 recommendations:
   title: Recommendations
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+    - person: Yareli Perez
+      email: perezyareli@example.com
+      phone: 012 345 6789
+      role: General Director at example.com
+      recommendation: |
+        Alan Doe is a super employee!
+    - person: Lara Henderson
+      email: larah@example.com
+      phone: 012 345 6789
+      role: General Director at example.com
+      recommendation: |
+        I would like to work with Alan Doe again!
+        He is a great employee!
 
 skills:
-  title: Skills &amp; Proficiency
-
+  title: Skills & Proficiency
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
+    - name: Python & Django
+      level: 98%
+    - name: Javascript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
